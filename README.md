@@ -1,4 +1,4 @@
-## KDD19 Tutorial: From Shallow to Deep Language Representations: Pre-training, Fine-tuning, and Beyond (TBA)
+## KDD19 Tutorial: From Shallow to Deep Language Representations: Pre-training, Fine-tuning, and Beyond
 
 <h4>Time: TBA</h4>
 <h4>Location: TBA</h4>
@@ -20,8 +20,8 @@ Agenda
 
 | Time        | Title                                                                  | Slides    | Notebooks  |
 |-------------|------------------------------------------------------------------------|-----------|------------|
-| TBA   | Basics of hands-on deep learning                                             |  | [ndarray](https://github.com/astonzhang/KDD19-tutorial/blob/master/01_basics/ndarray.ipynb) [autograd](https://github.com/astonzhang/KDD19-tutorial/blob/master/01_basics/autograd.ipynb)  |
-| TBA   | Shallow language representations in word embedding                           |           | [link] |
+| TBA   | Basics of hands-on deep learning                                             |  | [ndarray](https://github.com/astonzhang/KDD19-tutorial/blob/master/01_basics/ndarray.ipynb), [autograd](https://github.com/astonzhang/KDD19-tutorial/blob/master/01_basics/autograd.ipynb)  |
+| TBA   | Shallow language representations in word embedding                           |           | [word2vec](https://github.com/astonzhang/KDD19-tutorial/blob/master/02_word_embedding/word2vec.ipynb), [fasttext](https://github.com/astonzhang/KDD19-tutorial/blob/master/02_word_embedding/fasttext.ipynb), [GloVe](https://github.com/astonzhang/KDD19-tutorial/blob/master/02_word_embedding/glove.ipynb), [pre-traini](https://github.com/astonzhang/KDD19-tutorial/blob/master/02_word_embedding/word2vec-gluon.ipynb) |
 | TBA   | Fine-tuning pre-trained word embedding                                       | | [link]|
 | TBA   | Attention mechanisms                                                         | | [link] |
 | TBA   | Deep language representations with attention                                 |  | [link] |
