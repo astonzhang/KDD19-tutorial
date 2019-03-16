@@ -1,7 +1,7 @@
 ## KDD19 Tutorial: From Shallow to Deep Language Representations: Pre-training, Fine-tuning, and Beyond (TBA)
 
-<h4>Time: TBD</h4>
-<h4>Location: TBD</h4>
+<h4>Time: TBA</h4>
+<h4>Location: TBA</h4>
 <span style="color:grey">Tutors: Sheng Zha, Aston Zhang, Haibin Lin, Chenguang Wang, Mu Li, Alex J. Smola</span>
 
 Abstract
@@ -20,10 +20,10 @@ Agenda
 
 | Time        | Title                                                                  | Slides    | Notebooks  |
 |-------------|------------------------------------------------------------------------|-----------|------------|
-| TBA   | Basics of hands-on deep learning                                             | [link] | [link] |
+| TBA   | Basics of hands-on deep learning                                             |  | [ndarray](https://github.com/astonzhang/KDD19-tutorial/blob/master/01_basics/ndarray.ipynb) [autograd](https://github.com/astonzhang/KDD19-tutorial/blob/master/01_basics/autograd.ipynb)  |
 | TBA   | Shallow language representations in word embedding                           |           | [link] |
-| TBA   | Fine-tuning pre-trained word embedding                                       | [link] | [link]|
-| TBA   | Attention mechanisms                                                         | [link] | [link] |
-| TBA   | Deep language representations with attention                                 | [link] | [link] |
+| TBA   | Fine-tuning pre-trained word embedding                                       | | [link]|
+| TBA   | Attention mechanisms                                                         | | [link] |
+| TBA   | Deep language representations with attention                                 |  | [link] |
 | TBA   | Fine-tuning pre-trained BERT                                                 |           | [link],[link] |
 | TBA   | Q & A and Closing                                                            |           |            |
