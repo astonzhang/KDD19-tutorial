@@ -25,5 +25,5 @@ Agenda
 | TBA   | Fine-tuning pre-trained word embedding                                       | | [analogy](https://github.com/astonzhang/KDD19-tutorial/blob/master/03_finetuning_word_embedding/similarity-analogy.ipynb), [sa-rnn](https://github.com/astonzhang/KDD19-tutorial/blob/master/03_finetuning_word_embedding/sentiment-analysis-rnn.ipynb), [sa-cnn](https://github.com/astonzhang/KDD19-tutorial/blob/master/03_finetuning_word_embedding/sentiment-analysis-cnn.ipynb)|
 | TBA   | Attention mechanisms                                                         | | [attention](https://github.com/astonzhang/KDD19-tutorial/blob/master/04_attention/attention.ipynb), [seq2seq with attention on mt](https://github.com/astonzhang/KDD19-tutorial/blob/master/04_attention/machine-translation.ipynb) |
 | TBA   | Deep language representations with attention                                 |  |   |
-| TBA   | Fine-tuning pre-trained BERT                                                 |           |  |
+| TBA   | Fine-tuning pre-trained BERT                                                 |           | [finetune](https://github.com/astonzhang/KDD19-tutorial/blob/master/06_bert/bert.ipynb) |
 | TBA   | Q & A and Closing                                                            |           |            |
