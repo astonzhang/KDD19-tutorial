@@ -2,7 +2,7 @@
 
 <h4>Time: TBA</h4>
 <h4>Location: TBA</h4>
-<span style="color:grey">Tutors: Sheng Zha, Aston Zhang, Haibin Lin, Chenguang Wang, Mu Li, Alex J. Smola</span>
+<span style="color:grey">Tutors: Sheng Zha, Aston Zhang, Haibin Lin, Chenguang Wang, Mu Li, Alex J. Smola, Leonard Lausen</span>
 
 Abstract
 --------
