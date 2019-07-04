@@ -10,7 +10,7 @@ Natural language processing (NLP) is at the core of the pursuit for artificial i
 
 Target Audience
 --------
-We are targeting engineers, scientists, and instructors in the  eld of natural language processing, data mining, text mining, deep learning, machine learning, and arti cial intelligence. While the audience with a good background in these areas would bene t most of this tutorial, it will give general audience and newcomers an introductory pointer to the presented materials.
+We are targeting engineers, scientists, and instructors in the field of natural language processing, data mining, text mining, deep learning, machine learning, and artificial intelligence. While the audience with a good background in these areas would benefit the most from this tutorial, it will give general audience and newcomers an introductory pointer to the presented materials.
 
 
 Agenda
