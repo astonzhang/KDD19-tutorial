@@ -22,6 +22,6 @@ Agenda
 | 11:00am-11:45am | Aston Zhang  | Shallow language representations in word embedding           || [word2vec](03_word_embedding/word2vec.ipynb), [fasttext](03_word_embedding/fasttext.ipynb), [GloVe](03_word_embedding/glove.ipynb), [pre-train](03_word_embedding/word2vec-gluon.ipynb) |
 | 11:45am-12:30pm | Aston Zhang   | Application                                       || [analogy](04_word_embedding_app/similarity-analogy.ipynb), [sa-rnn](04_word_embedding_app/sentiment-analysis-rnn.ipynb), [sa-cnn](04_word_embedding_app/sentiment-analysis-cnn.ipynb)|
 | 12:30pm-1:00pm |    | Lunch break                                                         ||  |
-| 1:00pm-2:20pm | Leonard Lausen   | Transfomer                                                     ||[transformer](05_transformer/transformer.ipynb)  |
-| 2:30pm-3:30pm | Haibin Lin   | Deep language representations with Transfomer (BERT)       | [contextual_representations](06_bert/contextual_representations.pdf) |   |
+| 1:00pm-2:20pm | Leonard Lausen   | Transformer                                                     ||[transformer](05_transformer/transformer.ipynb)  |
+| 2:30pm-3:30pm | Haibin Lin   | Deep language representations with Transformer (BERT)       | [contextual_representations](06_bert/contextual_representations.pdf) |   |
 | 3:30pm-4:00pm | Haibin Lin   | Application                                                || [text classification](07_bert_app/bert.ipynb), [question answering](07_bert_app/question_answering.ipynb) |
