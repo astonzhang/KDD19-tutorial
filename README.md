@@ -15,13 +15,13 @@ Natural language processing (NLP) is at the core of the pursuit for artificial i
 Agenda
 ------
 
-| Time        | Tutor        | Title                                                                  | Slides    | Notebooks  |
-|-------------|-------------|------------------------------------------------------------------------|-----------|------------|
-| 9:30am-10:00am | Alex Smola | Basics of hands-on deep learning                                             |  | [ndarray](https://github.com/astonzhang/KDD19-tutorial/blob/master/01_basics/ndarray.ipynb), [autograd](https://github.com/astonzhang/KDD19-tutorial/blob/master/01_basics/autograd.ipynb) |
-| 10:00am-10:50am | Alex Smola | Neural networks                                    |  |  MLP, CNN, RNN |
-| 11:00am-11:45am | Aston Zhang  | Shallow language representations in word embedding                           |           | [word2vec](https://github.com/astonzhang/KDD19-tutorial/blob/master/02_word_embedding/word2vec.ipynb), [fasttext](https://github.com/astonzhang/KDD19-tutorial/blob/master/02_word_embedding/fasttext.ipynb), [GloVe](https://github.com/astonzhang/KDD19-tutorial/blob/master/02_word_embedding/glove.ipynb), [pre-train](https://github.com/astonzhang/KDD19-tutorial/blob/master/02_word_embedding/word2vec-gluon.ipynb) |
-| 11:45am-12:30pm | Aston Zhang   | Application                                       | | [analogy](https://github.com/astonzhang/KDD19-tutorial/blob/master/03_finetuning_word_embedding/similarity-analogy.ipynb), [sa-rnn](https://github.com/astonzhang/KDD19-tutorial/blob/master/03_finetuning_word_embedding/sentiment-analysis-rnn.ipynb), [sa-cnn](https://github.com/astonzhang/KDD19-tutorial/blob/master/03_finetuning_word_embedding/sentiment-analysis-cnn.ipynb)|
-| 12:30pm-1:00pm |    | Lunch break                                                         | |  |
-| 1:00pm-2:20pm | Leonard Lausen   | Transfomer                                                         | |  |
-| 2:30pm-3:30pm | Haibin Lin   | Deep language representations with Transfomer (BERT)                                 |  |   |
-| 3:30pm-4:00pm | Haibin Lin   | Application                                                 |           | [finetune](https://github.com/astonzhang/KDD19-tutorial/blob/master/06_bert/bert.ipynb) |
+| Time        | Tutor        | Title                                                                    | Notebooks  |
+|-------------|-------------|------------------------------------------------------------------------|------------|
+| 9:30am-10:00am | Alex Smola | Basics of hands-on deep learning                                             | [ndarray](https://github.com/astonzhang/KDD19-tutorial/blob/master/01_basics/ndarray.ipynb), [autograd](https://github.com/astonzhang/KDD19-tutorial/blob/master/01_basics/autograd.ipynb) |
+| 10:00am-10:50am | Alex Smola | Neural networks                                    |  MLP, CNN, RNN |
+| 11:00am-11:45am | Aston Zhang  | Shallow language representations in word embedding           | [word2vec](https://github.com/astonzhang/KDD19-tutorial/blob/master/02_word_embedding/word2vec.ipynb), [fasttext](https://github.com/astonzhang/KDD19-tutorial/blob/master/02_word_embedding/fasttext.ipynb), [GloVe](https://github.com/astonzhang/KDD19-tutorial/blob/master/02_word_embedding/glove.ipynb), [pre-train](https://github.com/astonzhang/KDD19-tutorial/blob/master/02_word_embedding/word2vec-gluon.ipynb) |
+| 11:45am-12:30pm | Aston Zhang   | Application                                       | [analogy](https://github.com/astonzhang/KDD19-tutorial/blob/master/03_finetuning_word_embedding/similarity-analogy.ipynb), [sa-rnn](https://github.com/astonzhang/KDD19-tutorial/blob/master/03_finetuning_word_embedding/sentiment-analysis-rnn.ipynb), [sa-cnn](https://github.com/astonzhang/KDD19-tutorial/blob/master/03_finetuning_word_embedding/sentiment-analysis-cnn.ipynb)|
+| 12:30pm-1:00pm |    | Lunch break                                                         |  |
+| 1:00pm-2:20pm | Leonard Lausen   | Transfomer                                                     |  |
+| 2:30pm-3:30pm | Haibin Lin   | Deep language representations with Transfomer (BERT)       |   |
+| 3:30pm-4:00pm | Haibin Lin   | Application                                                | [finetune](https://github.com/astonzhang/KDD19-tutorial/blob/master/06_bert/bert.ipynb) |
