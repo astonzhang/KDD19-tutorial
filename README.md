@@ -24,4 +24,4 @@ Agenda
 | 12:30pm-1:00pm |    | Lunch break                                                         |  |
 | 1:00pm-2:20pm | Leonard Lausen   | Transfomer                                                     |[transformer](https://github.com/astonzhang/KDD19-tutorial/blob/master/05_transformer/transformer.ipynb)  |
 | 2:30pm-3:30pm | Haibin Lin   | Deep language representations with Transfomer (BERT)       |   |
-| 3:30pm-4:00pm | Haibin Lin   | Application                                                | [finetune](https://github.com/astonzhang/KDD19-tutorial/blob/master/06_bert/bert.ipynb) |
+| 3:30pm-4:00pm | Haibin Lin   | Application                                                | [text classification](https://github.com/astonzhang/KDD19-tutorial/blob/master/06_bert/bert.ipynb), [question answering](https://github.com/astonzhang/KDD19-tutorial/blob/master/06_bert/question_answering.ipynb) |
