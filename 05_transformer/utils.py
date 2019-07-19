@@ -26,6 +26,25 @@ import logging
 import io
 import nmt
 import hyperparameters as hparams
+import inspect
+
+import IPython
+import pygments
+
+def setup_source():
+    IPython.display.display(
+        IPython.display.HTML("<style>{pygments_css}</style>".format(
+            pygments_css=pygments.formatters.HtmlFormatter().get_style_defs(
+                '.highlight'))))
+
+
+def source(function):
+    code = inspect.getsource(function)
+    html = pygments.highlight(
+        code, pygments.lexers.PythonLexer(),
+        pygments.formatters.HtmlFormatter(style='colorful'))
+    IPython.core.display.display(IPython.core.display.HTML(html))
+
 
 def evaluate(model, data_loader, test_loss_function, translator, tgt_vocab, detokenizer, context):
     """Evaluate given the data loader
