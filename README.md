@@ -24,4 +24,4 @@ Agenda
 | 12:30pm-1:00pm |    | Lunch break                                                         ||  |
 | 1:00pm-2:20pm | Leonard Lausen   | Transformer                                                     ||[transformer](05_transformer/transformer.ipynb)  |
 | 2:30pm-3:30pm | Haibin Lin   | Deep language representations with Transformer (BERT)       | [contextual_representations](06_bert/contextual_representations.pdf) |   |
-| 3:30pm-4:00pm | Haibin Lin   | Application                                                || [text classification](07_bert_app/bert.ipynb), [question answering](07_bert_app/question_answering.ipynb) |
+| 3:30pm-4:00pm | Haibin Lin   | Application                                                || [text classification](07_bert_app/bert.ipynb) |
