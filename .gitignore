@@ -1,2 +1,6 @@
 *.pyc
 *.swp
+*.json
+*.params
+**/.ipynb_checkpoints
+data/ptb/*
