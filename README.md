@@ -19,7 +19,7 @@ Agenda
 |-------------|-------------|------------------------------------------------------------------------|------------|------------|
 | 9:30am-10:00am | Alex Smola | Basics of hands-on deep learning                                             || [ndarray](01_ndarray_autograd/ndarray.ipynb), [autograd](01_ndarray_autograd/autograd.ipynb) |
 | 10:00am-10:50am | Alex Smola | Neural networks                                    ||  [mlp-method](02_neural_nets/mlp.ipynb) [mlp-scratch](02_neural_nets/mlp-scratch.ipynb) [mlp-gluon](02_neural_nets/mlp-gluon.ipynb) |
-| 11:00am-11:45am | Aston Zhang  | Shallow language representations in word embedding           || [word2vec](03_word_embedding/word2vec.ipynb), [fasttext](03_word_embedding/fasttext.ipynb), [GloVe](03_word_embedding/glove.ipynb), [pre-train](03_word_embedding/word2vec-gluon.ipynb) |
+| 11:00am-11:45am | Aston Zhang  | Shallow language representations in word embedding           || [word2vec](03_word_embedding/word2vec.ipynb), [approx-train](03_word_embedding/approx-training.ipynb), [GloVe](03_word_embedding/glove.ipynb), [pre-train](03_word_embedding/word2vec-gluon.ipynb) |
 | 11:45am-12:30pm | Aston Zhang   | Application                                       || [analogy](04_word_embedding_app/similarity-analogy.ipynb), [sa-rnn](04_word_embedding_app/sentiment-analysis-rnn.ipynb), [sa-cnn](04_word_embedding_app/sentiment-analysis-cnn.ipynb)|
 | 12:30pm-1:00pm |    | Lunch break                                                         ||  |
 | 1:00pm-2:20pm | Leonard Lausen   | Transformer                                                     ||[transformer](05_transformer/transformer.ipynb)  |
