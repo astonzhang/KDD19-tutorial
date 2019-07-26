@@ -3,4 +3,4 @@
 *.json
 *.params
 **/.ipynb_checkpoints
-data/ptb/*
+data/
