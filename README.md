@@ -18,10 +18,10 @@ Agenda
 | Time        | Tutor        | Title                                                                    | Slides  | Notebooks  |
 |-------------|-------------|------------------------------------------------------------------------|------------|------------|
 | 9:30am-10:00am | Alex Smola | Basics of hands-on deep learning                                             || [ndarray](01_ndarray_autograd/ndarray.ipynb), [autograd](01_ndarray_autograd/autograd.ipynb) |
-| 10:00am-10:50am | Alex Smola | Neural Networks                                    ||  [model](02_neural_nets/1-model.ipynb) [cnn-rnn](02_neural_nets/2-cnn-rnn.ipynb) |
+| 10:00am-10:50am | Alex Smola | Neural Networks                                    ||  [model](02_neural_nets/1-model.ipynb), [cnn-rnn](02_neural_nets/2-cnn-rnn.ipynb) |
 | 11:00am-11:45am | Aston Zhang  | Shallow language representations in word embedding           || [word2vec](03_word_embedding/word2vec.ipynb), [approx-train](03_word_embedding/approx-training.ipynb), [GloVe](03_word_embedding/glove.ipynb), [pre-train](03_word_embedding/word2vec-gluon.ipynb) |
-| 11:45am-12:30pm | Aston Zhang   | Application                                       || [analogy](04_word_embedding_app/similarity-analogy.ipynb), [sa-rnn](04_word_embedding_app/sentiment-analysis-rnn.ipynb), [sa-cnn](04_word_embedding_app/sentiment-analysis-cnn.ipynb)|
+| 11:45am-12:30pm | Aston Zhang   | Application                                       || [analogy](04_word_embedding_app/similarity-analogy.ipynb), [sentiment-rnn](04_word_embedding_app/sentiment-analysis-rnn.ipynb), [sentiment-cnn](04_word_embedding_app/sentiment-analysis-cnn.ipynb)|
 | 12:30pm-1:00pm |    | Lunch break                                                         ||  |
 | 1:00pm-2:20pm | Leonard Lausen   | Transformer                                                     ||[transformer](05_transformer/transformer.ipynb)  |
 | 2:30pm-3:30pm | Haibin Lin   | Deep language representations with Transformer (BERT)       | [contextual_representations](06_bert/contextual_representations.pdf) |   |
-| 3:30pm-4:00pm | Haibin Lin   | Application                                                || [text classification](07_bert_app/bert.ipynb) |
+| 3:30pm-4:00pm | Haibin Lin   | Application                                                || [sentiment-bert](07_bert_app/bert.ipynb) |
