@@ -18,8 +18,8 @@ Agenda
 | Time        | Tutor        | Title                                                                    | Slides  | Notebooks  |
 |-------------|-------------|------------------------------------------------------------------------|------------|------------|
 | 9:30am-10:00am | Alex Smola | Basics of hands-on deep learning                                             |[basics](01_ndarray_autograd/Part-1.key)| [ndarray](01_ndarray_autograd/ndarray.ipynb), [autograd](01_ndarray_autograd/autograd.ipynb) |
-| 10:00am-10:50am | Alex Smola | Neural Networks                                    ||  [model](02_neural_nets/1-model.ipynb), [cnn-rnn](02_neural_nets/2-cnn-rnn.ipynb) |
-| 11:00am-11:30am | Aston Zhang  | Shallow language representations in word embedding           |[shallow-models](03_word_embedding/Part-2.key)| |
+| 10:00am-11:00am | Alex Smola | Neural Networks                                    ||  [model](02_neural_nets/1-model.ipynb), [cnn-rnn](02_neural_nets/2-cnn-rnn.ipynb) |
+| 11:10am-11:30am | Aston Zhang  | Shallow language representations in word embedding           |[shallow-models](03_word_embedding/Part-2.key)| |
 | 11:30am-12:30pm | Aston Zhang   | Application                                       || [similarity-analogy](04_word_embedding_app/similarity-analogy.ipynb), [sentiment-rnn](04_word_embedding_app/sentiment-analysis-rnn.ipynb), [sentiment-cnn](04_word_embedding_app/sentiment-analysis-cnn.ipynb)|
 | 12:30pm-1:00pm |    | Lunch break                                                         ||  |
 | 1:00pm-2:20pm | Leonard Lausen   | Transformer                                                     |[transformer](05_transformer/transformer.pdf)|[transformer](05_transformer/transformer.ipynb)  |
