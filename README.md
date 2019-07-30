@@ -27,8 +27,8 @@ Agenda
 | 3:30pm-4:00pm | Haibin Lin   | Application                                                || [sentiment-bert](07_bert_app/bert.ipynb) |
 
 
-Useful Links
-------------
+Links
+-----
 
 * [Local installation guide](00_setup/install.ipynb)
 * [Source code of the `d2l` (v0.8.2) package](d2l-0.8.2.py)
