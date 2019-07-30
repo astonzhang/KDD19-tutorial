@@ -25,3 +25,10 @@ Agenda
 | 1:00pm-2:20pm | Leonard Lausen   | Transformer                                                     |[transformer](05_transformer/transformer.pdf)|[transformer](05_transformer/transformer.ipynb)  |
 | 2:30pm-3:30pm | Haibin Lin   | Deep language representations with Transformer (BERT)       | [contextual_representations](06_bert/contextual_representations.pdf) |   |
 | 3:30pm-4:00pm | Haibin Lin   | Application                                                || [sentiment-bert](07_bert_app/bert.ipynb) |
+
+
+Useful Links
+------------
+
+* [Local installation guide](00_setup/install.ipynb)
+* [Source code of the `d2l` (v0.8.2) package](d2l-0.8.2.py)
