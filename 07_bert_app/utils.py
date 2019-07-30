@@ -162,7 +162,7 @@ def train_loop(net, train_data, test_data, num_epoch, lr, ctx, loss_fn):
                     preds.append(out)
             mx.autograd.backward(losses)
             for l in losses:
-                running_loss += loss.mean().asscalar() / len(losses)
+                running_loss += l.mean().asscalar() / len(losses)
             # Gradient clipping
             trainer.allreduce_grads()
             nlp.utils.clip_grad_global_norm(params, 1)
