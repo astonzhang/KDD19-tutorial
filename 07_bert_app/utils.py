@@ -176,7 +176,7 @@ def train_loop(net, train_data, test_data, num_epoch, lr, ctx, loss_fn):
 
 def evaluate(test_data, ctx, net):
     accuracy = 0
-    ctx = mx.gpu()
+    ctx = ctx[0] if isinstance(ctx, list) else ctx
     for i, (inputs, seq_len, token_types, label) in enumerate(test_data):
         inputs = inputs.as_in_context(ctx)
         seq_len = seq_len.as_in_context(ctx)
@@ -187,7 +187,7 @@ def evaluate(test_data, ctx, net):
     print("Test Acc {}".format(accuracy.asscalar()/(i+1)))
 
 def predict_sentiment(net, ctx, vocabulary, bert_tokenizer, sentence):
-    ctx = mx.gpu()
+    ctx = ctx[0] if isinstance(ctx, list) else ctx
     max_len = 128
     padding_id = vocabulary[vocabulary.padding_token]
 
