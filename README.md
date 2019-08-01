@@ -5,7 +5,7 @@ KDD19 Tutorial: From Shallow to Deep Language Representations: Pre-training, Fin
 <h3>Location: Dena’ina Center, Kahtnu-Level 3, 600 W. Seventh Avenue Anchorage, AK 99501</h3>
 
 <span style="color:grey">Presenter: Aston Zhang, Haibin Lin, Leonard Lausen, Sheng Zha, Alex Smola</span><br/>
-
+<span style="color:grey">Other contributors: Chenguang Wang and Mu Li</span><br/>
 
 Abstract
 --------
