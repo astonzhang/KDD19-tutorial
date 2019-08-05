@@ -18,7 +18,7 @@ Agenda
 | Time        | Tutor        | Title                                                                    | Slides  | Notebooks  |
 |-------------|-------------|------------------------------------------------------------------------|------------|------------|
 | 9:30am-10:00am | Alex Smola | Basics of hands-on deep learning                                             |[basics](01_ndarray_autograd/Part-1.pdf)| [ndarray](01_ndarray_autograd/ndarray.ipynb), [autograd](01_ndarray_autograd/autograd.ipynb) |
-| 10:00am-11:00am | Alex Smola | Neural Networks                                    ||  [model](02_neural_nets/1-model.ipynb), [cnn-rnn](02_neural_nets/2-cnn-rnn.ipynb) |
+| 10:00am-11:00am | Alex Smola | Neural Networks                                    ||  [model](02_neural_nets/1-model.ipynb), [cnn-rnn](02_neural_nets/2-cnn-rnn.ipynb), [seq](02_neural_nets/3-sequence.ipynb) |
 | 11:00am-11:10am |  | Coffee break                                    ||   |
 | 11:10am-11:30am | Aston Zhang  | Shallow language representations in word embedding           |[shallow-models](03_word_embedding/Part-2.pdf)| |
 | 11:30am-12:30pm | Aston Zhang   | Application                                       ||  [sim-analogy-sentiment-analysis-rnn-cnn](04_word_embedding_app/sim-analogy-sentiment-analysis-rnn-cnn.ipynb)|
