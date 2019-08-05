@@ -33,5 +33,5 @@ Links
 -----
 
 * [Local installation guide](00_setup/install.ipynb)
-* [Source code of the `d2l` (v0.8.2) package](d2l-0.8.2.py)
+* [Source code of the `d2l` (v0.10.1) package](d2l-0.10.1.py)
 * This tutorial is based on [Dive into Deep Learning](https://www.d2l.ai) and [GluonNLP](http://gluon-nlp.mxnet.io/).
