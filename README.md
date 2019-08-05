@@ -17,15 +17,15 @@ Agenda
 
 | Time        | Tutor        | Title                                                                    | Slides  | Notebooks  |
 |-------------|-------------|------------------------------------------------------------------------|------------|------------|
-| 9:30am-10:00am | Alex Smola | Basics of hands-on deep learning                                             |[basics](01_ndarray_autograd/Part-1.key)| [ndarray](01_ndarray_autograd/ndarray.ipynb), [autograd](01_ndarray_autograd/autograd.ipynb) |
+| 9:30am-10:00am | Alex Smola | Basics of hands-on deep learning                                             |[basics](01_ndarray_autograd/Part-1.pdf)| [ndarray](01_ndarray_autograd/ndarray.ipynb), [autograd](01_ndarray_autograd/autograd.ipynb) |
 | 10:00am-11:00am | Alex Smola | Neural Networks                                    ||  [model](02_neural_nets/1-model.ipynb), [cnn-rnn](02_neural_nets/2-cnn-rnn.ipynb) |
 | 11:00am-11:10am |  | Coffee break                                    ||   |
-| 11:10am-11:30am | Aston Zhang  | Shallow language representations in word embedding           |[shallow-models](03_word_embedding/Part-2.key)| |
+| 11:10am-11:30am | Aston Zhang  | Shallow language representations in word embedding           |[shallow-models](03_word_embedding/Part-2.pdf)| |
 | 11:30am-12:30pm | Aston Zhang   | Application                                       ||  [sim-analogy-sentiment-analysis-rnn-cnn](04_word_embedding_app/sim-analogy-sentiment-analysis-rnn-cnn.ipynb)|
 | 12:30pm-1:00pm |    | Lunch break                                                         ||  |
-| 1:00pm-2:20pm | Leonard Lausen   | Transformer                                                     |[transformer](05_transformer/transformer.pdf)|[transformer](05_transformer/transformer.ipynb)  |
+| 1:00pm-2:20pm | Leonard Lausen   | Transformer                                                     |[transformer](05_transformer/Part-3.pdf)|[transformer](05_transformer/transformer.ipynb)  |
 | 2:20pm-2:30pm |  | Coffee break                                    ||   |
-| 2:30pm-3:30pm | Haibin Lin   | Deep language representations with Transformer (BERT)       | [contextual_representations](06_bert/contextual_representations.pdf) |   |
+| 2:30pm-3:30pm | Haibin Lin   | Deep language representations with Transformer (BERT)       | [contextual_representations](06_bert/Part-4.pdf) |   |
 | 3:30pm-4:00pm | Haibin Lin   | Application                                                || [sentiment-bert](07_bert_app/bert.ipynb) |
 
 
