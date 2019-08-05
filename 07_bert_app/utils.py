@@ -183,7 +183,7 @@ def evaluate(test_data, ctx, net):
         labels = gluon.utils.split_and_load(labels, ctx)
         for inp, seq_len, token_type, label in zip(inputs, seq_lens, token_types, labels):
             out = net(inp, token_type, seq_len)
-            accuracy += (out.argmax(axis=1).squeeze() == label).mean().copyto(mx.cpu())
+            accuracy += (out.argmax(axis=1).squeeze() == label).mean().copyto(mx.cpu()) / len(ctx)
         accuracy.wait_to_read()
     print("Test Acc {}".format(accuracy.asscalar()/(i+1)))
 
