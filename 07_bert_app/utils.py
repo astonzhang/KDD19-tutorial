@@ -176,14 +176,15 @@ def train_loop(net, train_data, test_data, num_epoch, lr, ctx, loss_fn):
 
 def evaluate(test_data, ctx, net):
     accuracy = 0
-    ctx = ctx[0] if isinstance(ctx, list) else ctx
-    for i, (inputs, seq_len, token_types, label) in enumerate(test_data):
-        inputs = inputs.as_in_context(ctx)
-        seq_len = seq_len.as_in_context(ctx)
-        token_types = token_types.as_in_context(ctx)
-        label = label.as_in_context(ctx)
-        out = net(inputs, token_types, seq_len)
-        accuracy += (out.argmax(axis=1).squeeze() == label).mean()
+    for i, (inputs, seq_lens, token_types, labels) in enumerate(test_data):
+        inputs = gluon.utils.split_and_load(inputs, ctx)
+        seq_lens = gluon.utils.split_and_load(seq_lens, ctx)
+        token_types = gluon.utils.split_and_load(token_types, ctx)
+        labels = gluon.utils.split_and_load(labels, ctx)
+        for inp, seq_len, token_type, label in zip(inputs, seq_lens, token_types, labels):
+            out = net(inp, token_type, seq_len)
+            accuracy += (out.argmax(axis=1).squeeze() == label).mean().copyto(mx.cpu()) / len(ctx)
+        accuracy.wait_to_read()
     print("Test Acc {}".format(accuracy.asscalar()/(i+1)))
 
 def predict_sentiment(net, ctx, vocabulary, bert_tokenizer, sentence):
