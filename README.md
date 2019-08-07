@@ -15,18 +15,64 @@ Natural language processing (NLP) is at the core of the pursuit for artificial i
 Agenda
 ------
 
-| Time        | Tutor        | Title                                                                    | Slides  | Notebooks  |
-|-------------|-------------|------------------------------------------------------------------------|------------|------------|
-| 9:30am-10:00am | Alex Smola | Basics of hands-on deep learning                                             |[basics](01_ndarray_autograd/Part-1.pdf)| [ndarray](01_ndarray_autograd/ndarray.ipynb), [autograd](01_ndarray_autograd/autograd.ipynb) |
-| 10:00am-11:00am | Alex Smola | Neural Networks                                    ||  [model](02_neural_nets/1-model.ipynb), [cnn-rnn](02_neural_nets/2-cnn-rnn.ipynb), [seq](02_neural_nets/3-sequence.ipynb), [rnn](02_neural_nets/4-rnn-gluon.ipynb) |
-| 11:00am-11:10am |  | Coffee break                                    ||   |
-| 11:10am-11:30am | Aston Zhang  | Shallow language representations in word embedding           |[shallow-models](03_word_embedding/Part-2.pdf)| |
-| 11:30am-12:30pm | Aston Zhang   | Application                                       ||  [sim-analogy-sentiment-analysis-rnn-cnn](04_word_embedding_app/sim-analogy-sentiment-analysis-rnn-cnn.ipynb)|
-| 12:30pm-1:00pm |    | Lunch break                                                         ||  |
-| 1:00pm-2:20pm | Leonard Lausen   | Transformer                                                     |[transformer](05_transformer/Part-3.pdf)|[transformer](05_transformer/transformer.ipynb)  |
-| 2:20pm-2:30pm |  | Coffee break                                    ||   |
-| 2:30pm-3:30pm | Haibin Lin   | Deep language representations with Transformer (BERT)       | [bert](06_bert/Part-4.pdf) |   |
-| 3:30pm-4:00pm | Haibin Lin   | Application                                                || [sentiment-bert](07_bert_app/bert.ipynb) |
+| Time            | Tutor          | Title                                                                                                         |
+|-----------------|----------------|---------------------------------------------------------------------------------------------------------------|
+| 9:30am-10:00am  | Alex Smola     | [Basics of hands-on deep learning](#basics-of-hands-on-deep-learning)                                         |
+| 10:00am-11:00am | Alex Smola     | [Neural Networks](#neural-networks)                                                                           |
+| 11:00am-11:10am |                | Coffee break                                                                                                  |
+| 11:10am-11:30am | Aston Zhang    | [Shallow language representations in word embedding](#shallow-language-representations-in-word-embedding)     |
+| 11:30am-12:30pm | Aston Zhang    | [Word Embedding Application](#word-embedding-application)                                                     |
+| 12:30pm-1:00pm  |                | Lunch break                                                                                                   |
+| 1:00pm-2:20pm   | Leonard Lausen | [Transformer](#transformer)                                                                                   |
+| 2:20pm-2:30pm   |                | Coffee break                                                                                                  |
+| 2:30pm-3:30pm   | Haibin Lin     | [Deep language representations with Transformer (BERT)](#deep-language-representations-with-transformer-bert) |
+| 3:30pm-4:00pm   | Haibin Lin     | [BERT Application](#bert-application)                                                                         |
+
+### Basics of Hands-on Deep Learning
+
+**Slides**: [[pdf]](01-ndarray-autograd/Part-1.pdf)
+
+**Notebooks**:
+
+1. NDArray: [[ipynb]](01-ndarray-autograd/ndarray.ipynb)
+1. Autograd: [[ipynb]](01-ndarray-autograd/autograd.ipynb)
+
+
+### Neural Networks
+
+**Notebooks**:
+
+1. Model: [[ipynb]](02_neural_nets/1-model.ipynb)
+1. CNN/RNN: [[ipynb]](02_neural_nets/2-cnn-rnn.ipynb)
+1. Sequence: [[ipynb]](02_neural_nets/3-sequence.ipynb)
+1. RNN with Gluon: [[ipynb]](02_neural_nets/4-rnn-gluon.ipynb)
+
+
+### Shallow language representations in word embedding
+
+**Slides**: [[pdf]](03_word_embedding/Part-2.pdf)
+
+
+### Word Embedding Application
+
+**Notebooks**: [[ipynb]](04_word_embedding_app/sim-analogy-sentiment-analysis-rnn-cnn.ipynb)
+
+
+### Transformer
+
+**Slides**: [[pdf]](05_transformer/Part-3.pdf)
+
+**Notebooks**: [[ipynb]](05_transformer/transformer.ipynb)
+
+
+### Deep language representations with Transformer (BERT)
+
+**Slides**: [[pdf]](06_bert/Part-4.pdf)
+
+
+### BERT Application
+
+**Notebooks**: [[ipynb]](07_bert_app/bert.ipynb)
 
 
 Links
