@@ -2,7 +2,7 @@ KDD19 Tutorial: From Shallow to Deep Language Representations: Pre-training, Fin
 ==================================================================
 
 <h3>Time: Thu, August 08, 2019 - 9:30am - 12:30 pm | 1:00 pm - 4:00 pm</h3>
-<h3>Location: Dena’ina Center, Kahtnu-Level 3, 600 W. Seventh Avenue Anchorage, AK 99501</h3>
+<h3>Location: Dena’ina Center, Kahtnu 1 & 2-Level 2, 600 W. Seventh Avenue Anchorage, AK 99501</h3>
 
 <span style="color:grey">Presenters: [Aston Zhang](https://www.astonzhang.com/), [Haibin Lin](https://www.linkedin.com/in/linhaibin/), [Leonard Lausen](https://leonard.lausen.nl/), [Sheng Zha](https://www.linkedin.com/in/shengzha/), and [Alex Smola](https://alex.smola.org/)</span><br/>
 <span style="color:grey">Other contributors: [Chenguang Wang](https://sites.google.com/site/raychenguangwang/) and [Mu Li](https://www.cs.cmu.edu/~muli/)</span><br/>
