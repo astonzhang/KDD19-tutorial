@@ -30,12 +30,12 @@ Agenda
 
 ### Part 1.1: Basics of Hands-on Deep Learning
 
-**Slides**: [[pdf]](01-ndarray-autograd/Part-1.pdf)
+**Slides**: [[pdf]](01_ndarray_autograd/Part-1.pdf)
 
 **Notebooks**:
 
-1. NDArray: [[ipynb]](01-ndarray-autograd/ndarray.ipynb)
-1. Autograd: [[ipynb]](01-ndarray-autograd/autograd.ipynb)
+1. NDArray: [[ipynb]](01_ndarray_autograd/ndarray.ipynb)
+1. Autograd: [[ipynb]](01_ndarray_autograd/autograd.ipynb)
 
 
 ### Part 1.2: Neural Networks
