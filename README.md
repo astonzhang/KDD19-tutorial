@@ -15,20 +15,20 @@ Natural language processing (NLP) is at the core of the pursuit for artificial i
 Agenda
 ------
 
-| Time            | Tutor          | Title                                                                                                         |
-|-----------------|----------------|---------------------------------------------------------------------------------------------------------------|
-| 9:30am-10:00am  | Alex Smola     | [Basics of hands-on deep learning](#basics-of-hands-on-deep-learning)                                         |
-| 10:00am-11:00am | Alex Smola     | [Neural Networks](#neural-networks)                                                                           |
-| 11:00am-11:10am |                | Coffee break                                                                                                  |
-| 11:10am-11:30am | Aston Zhang    | [Shallow language representations in word embedding](#shallow-language-representations-in-word-embedding)     |
-| 11:30am-12:30pm | Aston Zhang    | [Word Embedding Application](#word-embedding-application)                                                     |
-| 12:30pm-1:00pm  |                | Lunch break                                                                                                   |
-| 1:00pm-2:20pm   | Leonard Lausen | [Transformer](#transformer)                                                                                   |
-| 2:20pm-2:30pm   |                | Coffee break                                                                                                  |
-| 2:30pm-3:30pm   | Haibin Lin     | [Deep language representations with Transformer (BERT)](#deep-language-representations-with-transformer-bert) |
-| 3:30pm-4:00pm   | Haibin Lin     | [BERT Application](#bert-application)                                                                         |
+| Time            | Tutor          | Title                                                                                                                            |
+|-----------------|----------------|----------------------------------------------------------------------------------------------------------------------------------|
+| 9:30am-10:00am  | Alex Smola     | [Part 1.1: Basics of hands-on deep learning](#part-11-basics-of-hands-on-deep-learning)                                         |
+| 10:00am-11:00am | Alex Smola     | [Part 1.2: Neural Networks](#part-12-neural-networks)                                                                           |
+| 11:00am-11:10am |                | Coffee break                                                                                                                     |
+| 11:10am-11:30am | Aston Zhang    | [Part 2.1: Shallow language representations in word embedding](#part-21-shallow-language-representations-in-word-embedding)     |
+| 11:30am-12:30pm | Aston Zhang    | [Part 2.2: Word Embedding Application](#part-22-word-embedding-application)                                                     |
+| 12:30pm-1:00pm  |                | Lunch break                                                                                                                      |
+| 1:00pm-2:20pm   | Leonard Lausen | [Part 3: Transformer](#part-3-transformer)                                                                                       |
+| 2:20pm-2:30pm   |                | Coffee break                                                                                                                     |
+| 2:30pm-3:30pm   | Haibin Lin     | [Part 4.1: Deep language representations with Transformer (BERT)](#part-41-deep-language-representations-with-transformer-bert) |
+| 3:30pm-4:00pm   | Haibin Lin     | [Part 4.2: BERT Application](#part-42-bert-application)                                                                        |
 
-### Basics of Hands-on Deep Learning
+### Part 1.1: Basics of Hands-on Deep Learning
 
 **Slides**: [[pdf]](01-ndarray-autograd/Part-1.pdf)
 
@@ -38,7 +38,7 @@ Agenda
 1. Autograd: [[ipynb]](01-ndarray-autograd/autograd.ipynb)
 
 
-### Neural Networks
+### Part 1.2: Neural Networks
 
 **Notebooks**:
 
@@ -48,29 +48,29 @@ Agenda
 1. RNN with Gluon: [[ipynb]](02_neural_nets/4-rnn-gluon.ipynb)
 
 
-### Shallow language representations in word embedding
+### Part 2.1: Shallow language representations in word embedding
 
 **Slides**: [[pdf]](03_word_embedding/Part-2.pdf)
 
 
-### Word Embedding Application
+### Part 2.2: Word Embedding Application
 
 **Notebooks**: [[ipynb]](04_word_embedding_app/sim-analogy-sentiment-analysis-rnn-cnn.ipynb)
 
 
-### Transformer
+### Part 3: Transformer
 
 **Slides**: [[pdf]](05_transformer/Part-3.pdf)
 
 **Notebooks**: [[ipynb]](05_transformer/transformer.ipynb)
 
 
-### Deep language representations with Transformer (BERT)
+### Part 4.1: Deep language representations with Transformer (BERT)
 
 **Slides**: [[pdf]](06_bert/Part-4.pdf)
 
 
-### BERT Application
+### Part 4.2: BERT Application
 
 **Notebooks**: [[ipynb]](07_bert_app/bert.ipynb)
 
