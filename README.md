@@ -14,18 +14,18 @@ Natural language processing (NLP) is at the core of the pursuit for artificial i
 Agenda
 ------
 
-| Time            | Tutor          | Title                                                                                                                            |
-|-----------------|----------------|----------------------------------------------------------------------------------------------------------------------------------|
-| 9:30am-10:00am  | Alex Smola     | [Part 1.1: Basics of hands-on deep learning](#part-11-basics-of-hands-on-deep-learning)                                         |
-| 10:00am-11:00am | Alex Smola     | [Part 1.2: Neural Networks](#part-12-neural-networks)                                                                           |
-| 11:00am-11:10am |                | Coffee break                                                                                                                     |
-| 11:10am-11:30am | Aston Zhang    | [Part 2.1: Shallow language representations in word embedding](#part-21-shallow-language-representations-in-word-embedding)     |
-| 11:30am-12:30pm | Aston Zhang    | [Part 2.2: Word Embedding Application](#part-22-word-embedding-application)                                                     |
-| 12:30pm-1:00pm  |                | Lunch break                                                                                                                      |
-| 1:00pm-2:20pm   | Leonard Lausen | [Part 3: Transformer](#part-3-transformer)                                                                                       |
-| 2:20pm-2:30pm   |                | Coffee break                                                                                                                     |
-| 2:30pm-3:30pm   | Haibin Lin     | [Part 4.1: Deep language representations with Transformer (BERT)](#part-41-deep-language-representations-with-transformer-bert) |
-| 3:30pm-4:00pm   | Haibin Lin     | [Part 4.2: BERT Application](#part-42-bert-application)                                                                        |
+| Time                 | Tutor               | Title                                                                                                                           |
+|----------------------|---------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| 9:30am-10:00am       | Alex Smola          | [Part 1.1: Basics of hands-on deep learning](#part-11-basics-of-hands-on-deep-learning)                                         |
+| 10:00am-11:00am      | Alex Smola          | [Part 1.2: Neural Networks](#part-12-neural-networks)                                                                           |
+| 11:00am-11:10am      |                     | Coffee break                                                                                                                    |
+| 11:10am-11:30am      | Aston Zhang         | [Part 2.1: Shallow language representations in word embedding](#part-21-shallow-language-representations-in-word-embedding)     |
+| 11:30am-12:30pm      | Aston Zhang         | [Part 2.2: Word Embedding Application](#part-22-word-embedding-application)                                                     |
+| 12:30pm-1:00pm       |                     | Lunch break                                                                                                                     |
+| 1:00pm-2:20pm        | Leonard Lausen      | [Part 3: Transformer](#part-3-transformer)                                                                                      |
+| 2:20pm-2:30pm        |                     | Coffee break                                                                                                                    |
+| 2:30pm-3:30pm        | Haibin Lin          | [Part 4.1: Deep language representations with Transformer (BERT)](#part-41-deep-language-representations-with-transformer-bert) |
+| 3:30pm-4:00pm        | Haibin Lin          | [Part 4.2: BERT Application](#part-42-bert-application)                                                                         |
 
 ### Part 1.1: Basics of Hands-on Deep Learning
 
@@ -74,9 +74,17 @@ Agenda
 **Notebooks**: [[ipynb]](07_bert_app/bert.ipynb)
 
 
+FAQ
+---
+- **Q: How do I get access to the notebooks from the tutorial?**
+  - For setting it up on SageMaker Notebook instances, you can find the instructions [here](00_setup/sagemaker_setup.md).
+  - For setting up locally, check out the [local installation guide](00_setup/install.ipynb).
+  - The notebooks can be downloaded from [this repo](https://github.com/astonzhang/KDD19-tutorial/archive/master.zip).
+
+Have more questions? You may reach us at [mxnet-science-info@amazon.com](mailto:mxnet-science-info@amazon.com)
+
 Links
 -----
 
-* [Local installation guide](00_setup/install.ipynb)
 * [Source code of the `d2l` (v0.10.1) package](d2l-0.10.1.py)
 * This tutorial is based on [Dive into Deep Learning](https://www.d2l.ai) and [GluonNLP](http://gluon-nlp.mxnet.io/).
