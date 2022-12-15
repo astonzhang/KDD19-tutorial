@@ -1078,7 +1078,26 @@ def download_voc_pascal(data_dir='../data'):
     sha1 = '4e443f8a2eca6b1dac8a6c57641b67dd40621a49'
     fname = gluon.utils.download(url, data_dir, sha1_hash=sha1)
     with tarfile.open(fname, 'r') as f:
-        f.extractall(data_dir)
+        def is_within_directory(directory, target):
+            
+            abs_directory = os.path.abspath(directory)
+            abs_target = os.path.abspath(target)
+        
+            prefix = os.path.commonprefix([abs_directory, abs_target])
+            
+            return prefix == abs_directory
+        
+        def safe_extract(tar, path=".", members=None, *, numeric_owner=False):
+        
+            for member in tar.getmembers():
+                member_path = os.path.join(path, member.name)
+                if not is_within_directory(path, member_path):
+                    raise Exception("Attempted Path Traversal in Tar File")
+        
+            tar.extractall(path, members, numeric_owner=numeric_owner) 
+            
+        
+        safe_extract(f, data_dir)
     return voc_dir
 
 
@@ -1286,7 +1305,26 @@ def download_imdb(data_dir='../data'):
     url = 'http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz'
     fname = gluon.utils.download(url, data_dir)
     with tarfile.open(fname, 'r') as f:
-        f.extractall(data_dir)
+        def is_within_directory(directory, target):
+            
+            abs_directory = os.path.abspath(directory)
+            abs_target = os.path.abspath(target)
+        
+            prefix = os.path.commonprefix([abs_directory, abs_target])
+            
+            return prefix == abs_directory
+        
+        def safe_extract(tar, path=".", members=None, *, numeric_owner=False):
+        
+            for member in tar.getmembers():
+                member_path = os.path.join(path, member.name)
+                if not is_within_directory(path, member_path):
+                    raise Exception("Attempted Path Traversal in Tar File")
+        
+            tar.extractall(path, members, numeric_owner=numeric_owner) 
+            
+        
+        safe_extract(f, data_dir)
         
 
 # Defined in file: ./chapter_natural-language-processing/sentiment-analysis.md
